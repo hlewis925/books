@@ -1,0 +1,163 @@
+﻿/*
+Theme Name: Books theme
+Theme URI: http://wordpress.org/themes/myFirst
+Author: the WordPress team
+Author URI: http://wordpress.org/
+Description: Book theme for authors.
+Version: 1.0
+License: 
+License 
+Tags: 
+Text Domain: 
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+
+/*structure*/
+body {
+	background:#ECD7F4;
+	font: 16px Arial, Helvetica, sans-serif;
+	backgroung-attachment:fixed;
+	backgroun-position:right top;
+	background-repeat:repeat-y;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+#wrapper {
+	margin: 0 auto;
+	width:960px;
+	max-height:1080px;
+}
+				/* Head and Nav */
+/*#headstyle {
+	height:100px;
+}*/
+header {
+	text-align:center;
+	height:250px;
+	width:960px;
+	padding-bottom:15px;
+}
+nav {
+	border-radius:7px;
+	width:960px;
+	text-align:left;
+	background-color:rgba(153,153,153,.4);
+	height: 50px;
+}
+.headcolor a {
+	color:#fff;
+	text-decoration:none;
+}
+h1.headcolor {
+	font:72px Georgia, "Times New Roman", Times, serif;
+}
+nav ul {
+	margin-left:150px;
+}
+nav ul li {
+	display: inline-block;
+	margin-top:10px;
+
+}
+nav ul li a {
+	padding:2px 25px;
+	font:18px Georgia, "Times New Roman", Times, serif;
+}
+nav ul li a:hover {
+	color:#000;
+	background-color:rgba(255,255,255,.4);
+	border-radius:15px;
+	text-decoration:underline;
+}
+
+p {
+	padding:10px 25px;	
+}
+				/* Begin the content */
+#container {
+	margin: 0 auto;
+	background: rgba(255,255,255,.4);
+	border-radius:7px;
+	overflow:auto;
+	clear:both;
+	min-height:400px;
+	width:960px;
+}
+#leftcon {
+	float:left;
+	width:670px;
+	min-height:400px;
+	padding:10px;
+}
+#leftcon h4 {
+	font-size:14px;
+	text-align:right;
+}
+.titlept {
+	margin:0 auto;
+	text-align:center;
+	border-bottom:double;
+	min-width:150px;
+	max-width:300px;
+}
+.authorlink {
+	font-size:12px;
+		
+}
+#rightcon {
+	max-width: 280px;
+	min-height:400px;
+	float: right;
+}
+				/* Sidebar begins */
+#sidebar {
+	float:right;
+	width:25%;
+	padding:5px;
+}
+				/* Footer begins */
+footer {
+	background:rgba(204,204,204,0.6);
+	padding:20px;
+	border-radius:7px;
+}
+#footer-sidebar {
+	display:block;
+	min-height:50px;
+}
+
+#footer-sidebar1 {
+	float: left;
+	width: 300px;
+	margin-left:5px;
+	margin-right:5px;
+}
+
+#footer-sidebar2 {
+	float: left;
+	width: 300px;
+	margin-right:5px;
+}
+
+#footer-sidebar3 {
+	float: left;
+	width: 300px;
+}
+#footleft {
+	text-align:left;
+}
+/* Text Rules*/
+h1 {font-size:26px;}
+h2 {font-size:22px;}
+h3 {font-size:18px;}
+h4 {font-size:14px;}
+/* MBT Book Manager */
+.mbt-book-blurb, .mbt-book-overview{
+	background: rgba(255,255,255,.2);
+}
